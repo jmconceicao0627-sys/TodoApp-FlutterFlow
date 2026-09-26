@@ -95,6 +95,7 @@ class _OnbordingWidgetState extends State<OnbordingWidget> {
                                 ),
                       ),
                       FlutterFlowIconButton(
+                        borderColor: FlutterFlowTheme.of(context).primaryText,
                         borderRadius: 8.0,
                         buttonSize: 40.0,
                         fillColor: FlutterFlowTheme.of(context).primary,
